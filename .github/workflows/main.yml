@@ -119,8 +119,7 @@ jobs:
 
       - name: Download YouTube-X (suppression des pubs + lecture ecran verrouille)
         run: |
-          wget "https://poomsmart.github.io/repo/debs/app/youtube/com.ps.ytx_1.7.19_iphoneos-arm.deb" --no-verbose -O ytx.deb || \
-          wget "https://poomsmart.github.io/repo/debs/com.ps.ytx_1.7.19_iphoneos-arm.deb" --no-verbose -O ytx.deb
+          wget "https://poomsmart.github.io/repo/debs/com.ps.ytx_1.7.17_iphoneos-arm.deb" --no-verbose -O ytx.deb
 
       - name: Inject tweaks into IPA
         run: |
